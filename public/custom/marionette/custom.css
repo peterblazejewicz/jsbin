@@ -1,0 +1,56 @@
+#control, .control {
+  background: #B90018;
+  color: #FFF;
+  border-bottom: 1px solid #A2001D;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 0 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 3px;
+}
+
+.menu > .button:hover,
+.menu > .button:active,
+.menu.open > .button {
+  border-left: 1px solid rgb(0,0,0);
+  border-left: 1px solid rgba(0,0,0,0);
+  border-right: 1px solid rgb(0,0,0);
+  border-right: 1px solid rgba(0,0,0,0);
+}
+
+#control .button {
+  font-weight: normal;
+  color: #FFF;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  text-decoration: none;
+}
+
+#panels .button:hover {
+  background: none;
+}
+
+#control .menu.open .button {
+  color: #000;
+  text-shadow: none;
+}
+
+#panels .button,
+#panels .button:first-child {
+  border: 0;
+  margin-left: 10px;
+  color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#panels .button.active {
+  color: #FFF;
+  background-color: #A2001D;
+  background-color: rgba(162, 0, 29, 0.6);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #A2001D;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0,inset rgba(0, 0, 0, 0.17) 0 1px 1px;
+  -moz-box-shadow: rgba(255,255,255,0.15) 0 1px 0,inset rgba(0,0,0,0.17) 0 1px 1px;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0,inset rgba(0, 0, 0, 0.17) 0 1px 1px;
+}
