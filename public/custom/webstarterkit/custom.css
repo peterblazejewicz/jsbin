@@ -1,0 +1,55 @@
+@import url("//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700,900");
+
+#control, .control {
+  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  background-color: #3367D6;
+  color: #fefefe;
+}
+
+
+#control .button {
+  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
+  color: white;
+}
+
+#panels .button,
+.button:hover,
+.button:active,
+.open > .button {
+ border-left: 1px solid rgba(255, 255, 255, 0.1);
+ border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#control .button:hover {
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+#control .menu.open .button {
+  color: #000;
+  text-shadow: none;
+}
+
+#panels .button {
+  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#panels .button:first-child {
+   border-left: none;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;;
+}
+
+#panels .button:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#panels .button.active {
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.3);
+}
